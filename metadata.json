@@ -1,0 +1,6 @@
+{
+  "name": "LexCorp Horizon",
+  "description": "Enterprise legal compliance dashboard for Kenyan corporate entities",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
