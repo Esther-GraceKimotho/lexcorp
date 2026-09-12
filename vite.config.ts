@@ -5,6 +5,10 @@ import { defineConfig } from 'vite';
 
 export default defineConfig(() => {
   return {
+    // Must match your GitHub repo name for project-site Pages deploys
+    // (https://<user>.github.io/<repo>/). Leave as '/' if you deploy to a
+    // custom domain or a <user>.github.io root repo instead.
+    base: '/lexcorp/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
